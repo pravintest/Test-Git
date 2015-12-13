@@ -1,4 +1,5 @@
 <?php
+echo 'test';
 // we've writen this code where we need
 function __autoload($classname) {
     $filename = $classname .".php";

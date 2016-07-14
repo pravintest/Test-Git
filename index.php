@@ -6,6 +6,8 @@ function __autoload($classname) {
     include_once($filename);
 }
 
+echo 'test Jenkins';
+
 // we've called a class ***
 $obj = new myclass();
 ?>
